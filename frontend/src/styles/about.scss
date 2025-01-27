@@ -1,54 +1,290 @@
-.about-container{
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s, transform 1s;
+  padding: 0 2rem;
+  &.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .about {
+    .about-text {
+      font-size: 20px;
+      font-weight: 400;
+      color: #1e1e1e;
+      padding: 0;
+      margin: 0;
+      width: 650px;
+      text-align: center;
+      line-height: 28px;
+      .it {
+        font-family: "PP Editorial New", serif;
+        font-style: italic;
+        padding: 0 4px;
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+    .about-container {
+        height: 40vh;
+      }
+  }
+@media (max-width: 480px) {
+  .about-container {
+    padding: 0 1rem;
+    height: 60vh;
+    .about {
+      .about-text {
+        font-size: 16px;
+        font-weight: 400;
+        color: #1e1e1e;
+        padding: 0;
+        margin: 0;
+        width: 290px;
+        text-align: left;
+        line-height: 24px;
+        .it {
+          font-family: "PP Editorial New", serif;
+          font-style: italic;
+          padding: 0 4px;
+        }
+      }
+    }
+  }
+}
+
+///////////////////////////////////////////////////////////////////////
+.services-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 2rem;
+
+  //   opacity: 0;
+  //   transform: translateY(20px);
+  //   transition: opacity 1s, transform 1s;
+
+  //   &.visible {
+  //     opacity: 1;
+  //     transform: translateY(0);
+  //   }
+  .services-text-container {
+    // height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 40vh;
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 1s, transform 1s;
+    gap: 25px;
+    h1 {
+      font-size: 57px;
+      font-weight: 400;
+      display: flex;
+      color: #1e1e1e;
+      font-family: "PP Editorial New", serif;
 
-    &.visible {
-        opacity: 1;
-        transform: translateY(0);
+      padding: 0;
+      margin: 0;
+      .it {
+        font-family: "PP Editorial New", serif;
+        font-style: italic;
+        padding: 0 10px;
       }
-    .about{
-        .about-text{
-            font-size: 20px;
-            font-weight: 400;
-            color: #1e1e1e;
-            padding: 0;
-            margin: 0;
-            width: 650px;
-            text-align: center;
-            line-height: 28px;
-            .it{
-                font-family: "PP Editorial New", serif;
-                font-style: italic;
-                padding: 0 4px;
-            }
-        }
     }
-}
-@media (max-width: 480px) {
-    .about-container{
-        padding: 0 1rem;
-        .about{
-            .about-text{
-                font-size: 14px;
-                font-weight: 400;
-                color: #1e1e1e;
-                padding: 0;
-                margin: 0;
-                width: 290px;
-                text-align: left;
-                line-height: 24px;
-                .it{
-                    font-family: "PP Editorial New", serif;
-                    font-style: italic;
-                    padding: 0 4px;
-                }
-            }
-        }
+    p {
+      font-size: 20px;
+      font-weight: 400;
+      color: #1e1e1e;
+      padding: 0;
+      margin: 0;
+      width: 650px;
+      text-align: center;
+      line-height: 28px;
     }
   }
+  .services-crads-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // height: 50vh;
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      //   border: 1px dashed black;
+      gap: 5rem;
+      margin-top: 5rem;
+      .card {
+        // border: 1px dashed pink;
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+        // align-items: left;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 1rem;
+        width: 356px;
+        height: 372px;
+        border-radius: 20px 164px 20px 20px;
+        transition: transform 0.3s;
+        &:hover {
+          transform: translateY(-5px);
+          // box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .card-content {
+          text-align: left;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end; // Push h2 and p to the bottom
+          flex-grow: 1;
+          .card-icon {
+            align-self: left; // Center the icon horizontally
+            margin-bottom: auto;
+            padding-top: 2rem;
+            svg {
+              width: 40px;
+              height: 40px;
+            }
+          }
+          h2 {
+            // font-size: 1.5rem;
+            // font-weight: bold;
+            font-size: 28px;
+            color: #1e1e1e;
+            font-weight: 500;
+            font-family: "PP Editorial New", serif;
+            margin-bottom: 0.5rem;
+            min-height: 1.5em;
+          }
+
+          p {
+            height: 70px;
+            font-size: 1rem;
+            color: #555;
+            line-height: 1.5;
+            display: -webkit-box; // Limit the number of lines
+            -webkit-line-clamp: 3; // Maximum 3 lines of text
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+        }
+      }
+    }
+
+    .card:nth-child(1) {
+      background-color: #fff9e6;
+    }
+    .card:nth-child(2) {
+      background-color: #f8eeff;
+    }
+    .card:nth-child(3) {
+      background-color: #ffe6e6;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    height: 100%;
+
+    .services-text-container h1 {
+      font-size: 45px;
+    }
+
+    .services-text-container p {
+      font-size: 18px;
+      width: 80%;
+    }
+
+    .services-crads-container .cards-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      margin-top: 4rem;
+      .card {
+        width: 322px;
+        height: 337px;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .services-text-container h1 {
+      font-size: 36px;
+    }
+
+    .services-text-container p {
+      font-size: 16px;
+      width: 90%;
+    }
+
+    .services-crads-container .cards-grid {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
+    .services-crads-container .card {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  @media (max-width: 480px) {
+    padding: 0 0.5rem;
+
+    .services-text-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 25px;
+      h1 {
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        .it {
+          padding: 0 5px;
+        }
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+
+    .services-crads-container {
+      padding: 1rem;
+    }
+
+    .services-crads-container .cards-grid {
+      gap: 1.5rem;
+
+      .card {
+        width: 256px;
+        height: 272px;
+        .card-content {
+          .card-icon {
+            padding-top: 1rem;
+            svg {
+              width: 30px;
+              height: 30px;
+            }
+          }
+          h2 {
+            font-size: 24px;
+          }
+
+          p {
+            height: 70px;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}

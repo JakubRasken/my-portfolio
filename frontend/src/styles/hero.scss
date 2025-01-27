@@ -67,7 +67,7 @@
 @media (max-width: 1024px) {
   // Tablet Screens
   .hero-container {
-    height: 95vh;
+    height: 70vh;
     .hero-content {
       gap: 5rem;
 
@@ -105,7 +105,7 @@
   .hero-container {
     height: auto; // Let the content determine height
     padding: 3rem 1rem 0 1rem; // Reduce padding for smaller screens
-    height: 90vh;
+    height: 100%;
     .hero-content {
       gap: 1.5rem; // Reduce the gap between elements
 
