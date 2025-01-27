@@ -57,6 +57,11 @@
   font-size: 16px;
 }
 
+.navbar .desktop-menu .it {
+  font-family: "PP Editorial New", serif;
+  font-style: italic;
+}
+
 .navbar .mobile-menu .menu-toggle {
   background: none;
   border: none;
@@ -87,6 +92,12 @@
 @media (max-width: 768px) {
   .navbar {
     padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 1rem;
   }
 }
 /*# sourceMappingURL=navbabr.css.map */

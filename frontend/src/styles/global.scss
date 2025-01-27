@@ -5,7 +5,14 @@
     font-weight: normal;
     font-style: normal;
   }
-  
+  @font-face {
+    font-family: "PP Editorial New";
+    src: url("/fonts/PP-Editorial-New.woff2") format("woff2"),
+         url("/fonts/PP-Editorial-New.woff") format("woff"),
+         url("/fonts/PP-Editorial-New.ttf") format("truetype");
+    font-weight: 400; /* Adjust as needed */
+    font-style: normal; /* or italic */
+}
   body {
     font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   }

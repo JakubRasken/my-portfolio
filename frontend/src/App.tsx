@@ -1,17 +1,15 @@
-
-import './App.css'
-import Navbar from './components/Navbar'
-import './styles/global.scss';
+import "./App.css";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import "./styles/global.scss";
 
 function App() {
-
   return (
     <>
-<Navbar/>
-
-
+      <Navbar />
+      <Hero/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

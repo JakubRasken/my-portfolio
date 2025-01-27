@@ -41,6 +41,11 @@ $background-color: white;
       font-weight: 500;
       font-size: 16px;
     }
+    .it{
+      font-family: "PP Editorial New", serif;
+      font-style: italic;
+
+    }
   }
   .mobile-menu {
     .menu-toggle {
@@ -71,4 +76,10 @@ $background-color: white;
     .navbar{
         padding: 1.5rem;
     }
+}
+@media (max-width: 480px) {
+  .navbar{
+      padding: 1rem;
+
+  }
 }

@@ -1,0 +1,131 @@
+.hero-container {
+  // border: 1px dashed black;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    .hero-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      h1 {
+        font-size: 57px;
+        font-weight: 400;
+        display: flex;
+        color: #1e1e1e;
+        padding: 0;
+        margin: 0;
+        // font-family: "PP Editorial New", serif;
+        span {
+          // display: flex;
+          // justify-content: center;
+          // align-items: center;
+          font-family: "PP Editorial New", serif;
+          font-style: italic;
+          padding: 0 4px;
+        }
+      }
+    }
+
+    .hero-arrow {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      width: 20px;
+      height: 25px;
+      // overflow: hidden;
+      .animated-arrow {
+        animation: animate 2s infinite ease-in-out;
+      }
+    }
+  }
+}
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotate(360deg) translateY(-20px);
+  }
+  50% {
+    opacity: 1;
+    transform: rotate(360deg) translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(360deg) translateY(20px);
+  }
+}
+
+@media (max-width: 1024px) {
+  // Tablet Screens
+  .hero-container {
+    height: 90vh;
+    .hero-content {
+      gap: 5rem;
+
+      .hero-text h1 {
+        font-size: 42px; // Smaller font size for tablets
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  // Mobile Screens
+  .hero-container {
+    height: auto; // Allow content to determine height
+    padding: 5rem 2rem 0 2rem;
+
+    .hero-content {
+      gap: 2rem;
+
+      .hero-text h1 {
+        font-size: 32px; // Even smaller font size for mobiles
+        text-align: center; // Center-align text on smaller screens
+      }
+
+      .hero-arrow {
+        width: 15px; // Adjust arrow size
+        height: 20px;
+        margin-top: 2rem;
+      }
+    }
+  }
+}
+@media (max-width: 480px) {
+  // Smaller Mobile Screens
+  .hero-container {
+    height: auto; // Let the content determine height
+    padding: 3rem 1rem 0 1rem; // Reduce padding for smaller screens
+    height: 70vh;
+    .hero-content {
+      gap: 1.5rem; // Reduce the gap between elements
+
+      .hero-text h1 {
+        font-size: 24px; // Smaller font size for compact screens
+        text-align: center; // Keep text centered
+      }
+
+      .hero-arrow {
+        width: 12px; // Further adjust arrow size
+        height: 16px;
+        margin-top: 1.5rem; // Adjust spacing above the arrow
+      }
+      .hero-illustration {
+        margin-top: 1rem;
+        svg {
+          width: 287px;
+          height: 272.1px;
+        }
+      }
+    }
+  }
+}
