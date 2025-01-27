@@ -1,0 +1,68 @@
+.about-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40vh;
+  opacity: 0;
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+  -webkit-transition: opacity 1s, -webkit-transform 1s;
+  transition: opacity 1s, -webkit-transform 1s;
+  transition: opacity 1s, transform 1s;
+  transition: opacity 1s, transform 1s, -webkit-transform 1s;
+}
+
+.about-container.visible {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.about-container .about .about-text {
+  font-size: 20px;
+  font-weight: 400;
+  color: #1e1e1e;
+  padding: 0;
+  margin: 0;
+  width: 650px;
+  text-align: center;
+  line-height: 28px;
+}
+
+.about-container .about .about-text .it {
+  font-family: "PP Editorial New", serif;
+  font-style: italic;
+  padding: 0 4px;
+}
+
+@media (max-width: 480px) {
+  .about-container {
+    padding: 0 1rem;
+  }
+  .about-container .about .about-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #1e1e1e;
+    padding: 0;
+    margin: 0;
+    width: 290px;
+    text-align: left;
+    line-height: 24px;
+  }
+  .about-container .about .about-text .it {
+    font-family: "PP Editorial New", serif;
+    font-style: italic;
+    padding: 0 4px;
+  }
+}
+/*# sourceMappingURL=about.css.map */

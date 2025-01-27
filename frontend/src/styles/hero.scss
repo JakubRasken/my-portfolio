@@ -1,6 +1,6 @@
 .hero-container {
   // border: 1px dashed black;
-  height: 90vh;
+  height: 95vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -67,7 +67,7 @@
 @media (max-width: 1024px) {
   // Tablet Screens
   .hero-container {
-    height: 90vh;
+    height: 95vh;
     .hero-content {
       gap: 5rem;
 
@@ -83,7 +83,7 @@
   .hero-container {
     height: auto; // Allow content to determine height
     padding: 5rem 2rem 0 2rem;
-
+    height: 90vh;
     .hero-content {
       gap: 2rem;
 
@@ -105,7 +105,7 @@
   .hero-container {
     height: auto; // Let the content determine height
     padding: 3rem 1rem 0 1rem; // Reduce padding for smaller screens
-    height: 70vh;
+    height: 90vh;
     .hero-content {
       gap: 1.5rem; // Reduce the gap between elements
 
