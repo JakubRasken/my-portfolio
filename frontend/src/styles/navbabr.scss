@@ -40,11 +40,16 @@ $background-color: white;
       color: $secondary-color;
       font-weight: 500;
       font-size: 16px;
+      a{
+        text-decoration: none;
+        font-family: 'SF Pro Text', sans-serif;
+        font-weight: 500;
+        color: $secondary-color;
+      }
     }
     .it{
       font-family: "PP Editorial New", serif;
       font-style: italic;
-
     }
   }
   .mobile-menu {
