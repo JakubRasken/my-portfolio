@@ -16,7 +16,7 @@ const Work: React.FC = () => {
       <div className="work-cards">
         <div className="w-card">
           <div className="image">
-            <img src="/Intersect.svg" alt="" />
+            <img src="/Intersect.svg" alt="Intersect Design Illustration" />
           </div>
           <div className="card-title">
             <h3>Project Name 01</h3>
@@ -26,7 +26,7 @@ const Work: React.FC = () => {
 
         <div className="w-card">
           <div className="image">
-            <img src="/Intersect1.svg" alt="" />
+            <img src="/Intersect1.svg" alt="Intersect Design Illustration" />
           </div>
           <div className="card-title">
             <h3>Project Name 02</h3>
@@ -36,7 +36,7 @@ const Work: React.FC = () => {
 
         <div className="w-card">
           <div className="image">
-            <img src="/Intersect2.svg" alt="" />
+            <img src="/Intersect2.svg" alt="Intersect Design Illustration" />
           </div>
           <div className="card-title">
             <h3>Project Name 03</h3>
@@ -46,7 +46,7 @@ const Work: React.FC = () => {
 
         <div className="w-card">
           <div className="image">
-            <img src="/Intersect4.svg" alt="" />
+            <img src="/Intersect4.svg" alt="Intersect Design Illustration" />
           </div>
           <div className="card-title">
             <h3>Project Name 04</h3>
