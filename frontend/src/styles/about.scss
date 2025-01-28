@@ -99,6 +99,7 @@
       }
     }
     p {
+      font-family: 'SF Pro Text', sans-serif;
       font-size: 20px;
       font-weight: 400;
       color: #1e1e1e;
@@ -118,7 +119,7 @@
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       //   border: 1px dashed black;
-      gap: 5rem;
+      gap: 2rem;
       margin-top: 5rem;
       .card {
         // border: 1px dashed pink;

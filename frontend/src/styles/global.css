@@ -1,20 +1,17 @@
 @font-face {
-  font-family: 'SF Pro Text';
-  src: url("../assets/fonts/SFProText-Regular.ttf") format("truetype"), url("../assets/fonts/SFProText-Bold.ttf") format("truetype");
+  font-family: "SF Pro Text";
+  src: url("/fonts/SF-Pro-Text-Light.woff") format("woff"), url("/fonts/SFProText-Regular.woff") format("woff"), url("/fonts/SF-Pro-Text-Semibold.woff") format("woff"), url("/fonts/SFProText-Bold.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "PP Editorial New";
-  src: url("/fonts/PP-Editorial-New.woff2") format("woff2"), url("/fonts/PP-Editorial-New.woff") format("woff"), url("/fonts/PP-Editorial-New.ttf") format("truetype");
-  font-weight: 400;
-  /* Adjust as needed */
+  src: url("/fonts/PPEditorialNew-Regular.woff") format("woff"), url("/fonts/PPEditorialNew-Italic.woff") format("woff"), url("/fonts/PPEditorialNew-UltraboldItalic.woff") format("woff");
   font-style: normal;
-  /* or italic */
 }
 
 body {
-  font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: "SF Pro Text", -apple-system, "PP Editorial New", BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 /*# sourceMappingURL=global.css.map */
