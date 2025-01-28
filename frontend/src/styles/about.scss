@@ -194,11 +194,11 @@
   @media (max-width: 1024px) {
     height: 100%;
 
-    .services-text-container h1 {
+    #services-text-container h1 {
       font-size: 45px;
     }
 
-    .services-text-container p {
+    #services-text-container p {
       font-size: 18px;
       width: 80%;
     }
@@ -238,7 +238,7 @@
   @media (max-width: 480px) {
     padding: 0 0.5rem;
 
-    .services-text-container {
+    #services-text-container {
       display: flex;
       flex-direction: column;
       justify-content: center;

@@ -1,5 +1,5 @@
 import "../styles/work.scss";
-
+ 
 const Work: React.FC = () => {
   return (
     <div id="work-container">

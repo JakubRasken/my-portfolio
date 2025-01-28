@@ -57,6 +57,13 @@
   font-size: 16px;
 }
 
+.navbar .desktop-menu li a {
+  text-decoration: none;
+  font-family: 'SF Pro Text', sans-serif;
+  font-weight: 500;
+  color: #686868;
+}
+
 .navbar .desktop-menu .it {
   font-family: "PP Editorial New", serif;
   font-style: italic;

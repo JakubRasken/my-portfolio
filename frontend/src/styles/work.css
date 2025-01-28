@@ -1,4 +1,4 @@
-.work-container {
+#work-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -16,7 +16,7 @@
   margin-top: 10rem;
 }
 
-.work-container .work-header-content {
+#work-container .work-header-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -33,7 +33,7 @@
   gap: 25px;
 }
 
-.work-container .work-header-content h1 {
+#work-container .work-header-content h1 {
   font-size: 57px;
   font-weight: 400;
   color: #1e1e1e;
@@ -42,7 +42,7 @@
   font-family: "PP Editorial New", serif;
 }
 
-.work-container .work-header-content p {
+#work-container .work-header-content p {
   font-size: 20px;
   font-weight: 400;
   color: #1e1e1e;
@@ -53,7 +53,7 @@
   line-height: 28px;
 }
 
-.work-container .work-cards {
+#work-container .work-cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -68,7 +68,7 @@
   margin-top: 8rem;
 }
 
-.work-container .work-cards .w-card {
+#work-container .work-cards .w-card {
   width: 887px;
   height: 542px;
   display: -webkit-box;
@@ -87,7 +87,7 @@
   border-radius: 10px;
 }
 
-.work-container .work-cards .w-card .card-title {
+#work-container .work-cards .w-card .card-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -101,7 +101,7 @@
   margin-top: 1rem;
 }
 
-.work-container .work-cards .w-card .card-title h3 {
+#work-container .work-cards .w-card .card-title h3 {
   font-size: 30px;
   font-weight: 400;
   font-family: "PP Editorial New", serif;
@@ -110,45 +110,45 @@
   margin: 0;
 }
 
-.work-container .work-cards .w-card:nth-child(1) {
+#work-container .work-cards .w-card:nth-child(1) {
   background-color: #1E1E1E;
   color: white;
 }
 
-.work-container .work-cards .w-card:nth-child(2) {
+#work-container .work-cards .w-card:nth-child(2) {
   background-color: #F2E2FF;
   color: #1E1E1E;
 }
 
-.work-container .work-cards .w-card:nth-child(3) {
+#work-container .work-cards .w-card:nth-child(3) {
   background-color: #FFE3E3;
   color: #1E1E1E;
 }
 
-.work-container .work-cards .w-card:nth-child(4) {
+#work-container .work-cards .w-card:nth-child(4) {
   background-color: #E1F4FF;
   color: #1E1E1E;
 }
 
 @media (max-width: 1024px) {
-  .work-container .work-header-content h1 {
+  #work-container .work-header-content h1 {
     font-size: 45px;
   }
-  .work-container .work-header-content p {
+  #work-container .work-header-content p {
     font-size: 18px;
     line-height: 26px;
   }
-  .work-container .work-cards {
+  #work-container .work-cards {
     gap: 6rem;
   }
-  .work-container .work-cards .w-card {
+  #work-container .work-cards .w-card {
     width: 80%;
     height: auto;
     width: 587px;
     height: 342px;
     padding: 2rem;
   }
-  .work-container .work-cards .w-card .image {
+  #work-container .work-cards .w-card .image {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -156,10 +156,10 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .work-container .work-cards .w-card .image img {
+  #work-container .work-cards .w-card .image img {
     width: 90%;
   }
-  .work-container .work-cards .w-card .card-title h3 {
+  #work-container .work-cards .w-card .card-title h3 {
     font-size: 26px;
   }
 }
@@ -181,24 +181,24 @@
 }
 
 @media (max-width: 480px) {
-  .work-container .work-header-content h1 {
+  #work-container .work-header-content h1 {
     font-size: 30px;
   }
-  .work-container .work-header-content p {
+  #work-container .work-header-content p {
     font-size: 16px;
     width: 90%;
     line-height: 26px;
   }
-  .work-container .work-cards {
+  #work-container .work-cards {
     gap: 3rem;
     margin-top: 4rem;
   }
-  .work-container .work-cards .w-card {
+  #work-container .work-cards .w-card {
     width: 287px;
     height: 142px;
     padding: 2rem;
   }
-  .work-container .work-cards .w-card .image {
+  #work-container .work-cards .w-card .image {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -206,10 +206,10 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .work-container .work-cards .w-card .image img {
+  #work-container .work-cards .w-card .image img {
     width: 80%;
   }
-  .work-container .work-cards .w-card .card-title h3 {
+  #work-container .work-cards .w-card .card-title h3 {
     font-size: 18px;
   }
 }
