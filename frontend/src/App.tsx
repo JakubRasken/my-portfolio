@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 import Services from "./components/Services";
 import Work from "./components/Work";
 import "./styles/global.scss";
-
+ 
 function App() {
   return (
     <>
