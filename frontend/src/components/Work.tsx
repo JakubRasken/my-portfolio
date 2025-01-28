@@ -2,7 +2,7 @@ import "../styles/work.scss";
 
 const Work: React.FC = () => {
   return (
-    <div className="work-container">
+    <div id="work-container">
       <div className="work-header-content">
         <h1 className="work-text">The Designs I've Crafted</h1>
         <p>
@@ -20,7 +20,7 @@ const Work: React.FC = () => {
           </div>
           <div className="card-title">
             <h3>Project Name 01</h3>
-            <span>link</span>
+            
           </div>
         </div>
 
@@ -30,7 +30,6 @@ const Work: React.FC = () => {
           </div>
           <div className="card-title">
             <h3>Project Name 02</h3>
-            <span>link</span>
           </div>
         </div>
 
@@ -40,7 +39,6 @@ const Work: React.FC = () => {
           </div>
           <div className="card-title">
             <h3>Project Name 03</h3>
-            <span>link</span>
           </div>
         </div>
 
@@ -50,7 +48,6 @@ const Work: React.FC = () => {
           </div>
           <div className="card-title">
             <h3>Project Name 04</h3>
-            <span>link</span>
           </div>
         </div>
 

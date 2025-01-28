@@ -2,7 +2,7 @@ import "../styles/contact.scss";
 
 const Contact: React.FC = () => {
   return (
-    <div className="contact-container">
+    <div id="contact-container">
       <div className="contact-text">
         <h1>
           Need a <span className="it">design</span> ?
@@ -17,8 +17,10 @@ const Contact: React.FC = () => {
         <button>Contact us</button>
       </div>
       <div className="soical-media">
+        <ul>
         <li>
-          <a href="">
+          <a href="https://web.whatsapp.com/" aria-label="WhatsApp">
+          <span className="visually-hidden">WhatsApp</span>
             <svg
               width="32"
               height="32"
@@ -34,7 +36,8 @@ const Contact: React.FC = () => {
           </a>
         </li>
         <li>
-          <a href="">
+          <a href="https://www.behance.net/" aria-label="Behance">
+          <span className="visually-hidden">Behance</span>
             <svg
               width="32"
               height="32"
@@ -62,7 +65,9 @@ const Contact: React.FC = () => {
           </a>
         </li>
         <li>
-          <a href="">
+          <a href="https://www.instagram.com/" aria-label="instagram">
+          <span className="visually-hidden">instagram</span>
+
             <svg
               width="32"
               height="32"
@@ -90,7 +95,8 @@ const Contact: React.FC = () => {
           </a>
         </li>
         <li>
-          <a href="">
+          <a href="https://dribbble.com/" aria-label="Dribbble">
+          <span className="visually-hidden">Dribbble</span>
             <svg
               width="30"
               height="30"
@@ -107,6 +113,7 @@ const Contact: React.FC = () => {
             </svg>
           </a>
         </li>
+        </ul>
       </div>
     </div>
   );

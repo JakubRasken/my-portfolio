@@ -32,7 +32,7 @@ const Services: React.FC = () => {
   }, []);
   return (
     <div className={`services-container ${isVisible ? "visible" : ""}`}>
-      <div className="services-text-container">
+      <div id="services-text-container">
         <h1>
           What can I <span className="it">help you</span> with?
         </h1>

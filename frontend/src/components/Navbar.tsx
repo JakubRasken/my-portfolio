@@ -100,7 +100,7 @@ const Navbar: React.FC = () => {
                   />
                 </svg> */}
               </li>
-              <li>Work</li>
+              <li><a href="#work-container">Work</a></li>
               <li>Services</li>
               <li>Contact</li>
             </ul>
@@ -124,9 +124,9 @@ const Navbar: React.FC = () => {
               />
             </svg> */}
           </li>
-          <li>Work</li>
-          <li>Services</li>
-          <li>Contact</li>
+          <li><a href="#work-container">Work</a></li>
+          <li><a href="#services-text-container">Services</a></li>
+          <li><a href="#contact-container">Contact</a></li>
         </ul>
       )}
     </nav>
