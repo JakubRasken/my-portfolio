@@ -83,7 +83,7 @@
 }
 // Responsive design
 @media (max-width: 1024px) {
-    .work-container{
+    #work-container{
     .work-header-content {
       h1 {
         font-size: 45px;
@@ -147,7 +147,7 @@
   }
 
   @media (max-width: 480px) {
-    .work-container{
+    #work-container{
         .work-header-content {
           h1 {
             font-size: 30px;

@@ -1,4 +1,4 @@
-.contact-container {
+#contact-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17,7 +17,7 @@
   gap: 3rem;
 }
 
-.contact-container .contact-text {
+#contact-container .contact-text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -34,7 +34,7 @@
   gap: 25px;
 }
 
-.contact-container .contact-text h1 {
+#contact-container .contact-text h1 {
   font-size: 57px;
   font-weight: 400;
   color: #1e1e1e;
@@ -43,11 +43,11 @@
   font-family: "PP Editorial New", serif;
 }
 
-.contact-container .contact-text h1 .it {
+#contact-container .contact-text h1 .it {
   font-style: italic;
 }
 
-.contact-container .contact-text p {
+#contact-container .contact-text p {
   font-size: 20px;
   font-weight: 400;
   color: #1e1e1e;
@@ -58,7 +58,7 @@
   line-height: 28px;
 }
 
-.contact-container .conatct-btn button {
+#contact-container .conatct-btn button {
   background-color: #1e1e1e;
   width: 244px;
   height: 57px;
@@ -68,7 +68,7 @@
   font-size: 20px;
 }
 
-.contact-container .soical-media {
+#contact-container .soical-media ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -79,15 +79,28 @@
       -ms-flex-align: center;
           align-items: center;
   gap: 1.5rem;
+  padding: 0;
 }
 
-.contact-container .soical-media li {
+#contact-container .soical-media ul li {
   list-style: none;
 }
 
-.contact-container .soical-media li a svg {
+#contact-container .soical-media ul li a svg {
   width: 33px;
   height: 33px;
+}
+
+#contact-container .soical-media ul li a .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 footer {
@@ -104,21 +117,21 @@ footer {
 }
 
 footer h3 {
-  color: #808080;
+  color: #686868;
   font-weight: 400;
   font-size: 14px;
   margin: 0;
 }
 
 @media (max-width: 480px) {
-  .contact-container .contact-text h1 {
+  #contact-container .contact-text h1 {
     font-size: 30px;
   }
-  .contact-container .contact-text p {
+  #contact-container .contact-text p {
     font-size: 16px;
     width: 100%;
   }
-  .contact-container .conatct-btn button {
+  #contact-container .conatct-btn button {
     background-color: #1e1e1e;
     width: 194px;
     height: 47px;
@@ -127,7 +140,7 @@ footer h3 {
     color: white;
     font-size: 18px;
   }
-  .contact-container .soical-media {
+  #contact-container .soical-media {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -139,10 +152,10 @@ footer h3 {
             align-items: center;
     gap: 1.5rem;
   }
-  .contact-container .soical-media li {
+  #contact-container .soical-media li {
     list-style: none;
   }
-  .contact-container .soical-media li a svg {
+  #contact-container .soical-media li a svg {
     width: 33px;
     height: 33px;
   }

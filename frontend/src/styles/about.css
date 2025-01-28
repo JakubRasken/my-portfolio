@@ -92,7 +92,7 @@
   padding: 0 2rem;
 }
 
-.services-container .services-text-container {
+.services-container #services-text-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -109,7 +109,7 @@
   gap: 25px;
 }
 
-.services-container .services-text-container h1 {
+.services-container #services-text-container h1 {
   font-size: 57px;
   font-weight: 400;
   display: -webkit-box;
@@ -121,13 +121,13 @@
   margin: 0;
 }
 
-.services-container .services-text-container h1 .it {
+.services-container #services-text-container h1 .it {
   font-family: "PP Editorial New", serif;
   font-style: italic;
   padding: 0 10px;
 }
 
-.services-container .services-text-container p {
+.services-container #services-text-container p {
   font-family: 'SF Pro Text', sans-serif;
   font-size: 20px;
   font-weight: 400;
@@ -257,10 +257,10 @@
   .services-container {
     height: 100%;
   }
-  .services-container .services-text-container h1 {
+  .services-container #services-text-container h1 {
     font-size: 45px;
   }
-  .services-container .services-text-container p {
+  .services-container #services-text-container p {
     font-size: 18px;
     width: 80%;
   }
@@ -299,7 +299,7 @@
   .services-container {
     padding: 0 0.5rem;
   }
-  .services-container .services-text-container {
+  .services-container #services-text-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -315,7 +315,7 @@
             align-items: center;
     gap: 25px;
   }
-  .services-container .services-text-container h1 {
+  .services-container #services-text-container h1 {
     font-size: 30px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -325,10 +325,10 @@
             justify-content: center;
     width: 100%;
   }
-  .services-container .services-text-container h1 .it {
+  .services-container #services-text-container h1 .it {
     padding: 0 5px;
   }
-  .services-container .services-text-container p {
+  .services-container #services-text-container p {
     font-size: 16px;
   }
   .services-container .services-crads-container {
