@@ -13,7 +13,7 @@ const Contact: React.FC = () => {
           we’ll find the best solutions to bring your idea to life.
         </p>
       </div>
-      <div className="contact-btn">
+      <div className="conatct-btn">
         <a href="mailto:jakub.rasken@gmail.com">
           <button>Contact me</button>
         </a>
