@@ -35,10 +35,10 @@ const About: React.FC = () => {
     <div className={`about-container ${isVisible ? 'visible' : ''}`}>
       <div className="about">
         <h1 className="about-text">
-          Hello, my name is <span className="it">Your Name</span>, and I’m a <span className="it">freelance graphic designer</span>. I
+          Hello, my name is <span className="it">Jakub Raška</span>, and I’m a <span className="it">freelance logo designer</span>. I
           specialize in creating visually striking and custom designs that bring
           your ideas to life. Whether it’s branding, digital illustrations, or
-          print materials, I aim to craft designs that perfectly align with your
+          print materials, I aim to craft designs that perfectly align with your brand's
           vision and goals.
         </h1>
       </div>
