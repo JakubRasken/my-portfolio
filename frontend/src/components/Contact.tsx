@@ -13,7 +13,7 @@ const Contact: React.FC = () => {
           we’ll find the best solutions to bring your idea to life.
         </p>
       </div>
-      <div className="conatct-btn">
+      <div className="contact-btn">
         <a href="mailto:jakub.rasken@gmail.com?subject=Logo%20Inquiry&body=Hi%20Jakub,">
           <button>Contact me</button>
         </a>
