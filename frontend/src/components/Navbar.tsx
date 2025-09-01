@@ -39,7 +39,7 @@ const Navbar: React.FC = () => {
           </svg>
         </div>
 
-        <p className="subtitle">Graphic Designer</p>
+        <p className="subtitle">Logo Designer</p>
       </div>
 
       {/* Menu Section */}
