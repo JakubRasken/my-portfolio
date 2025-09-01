@@ -66,6 +66,13 @@
   border-radius: 10px 51px 10px 10px;
   color: white;
   font-size: 20px;
+  /* Add a smooth transition for a better user experience */
+  transition: background-color 0.3s ease;
+}
+
+#contact-container .conatct-btn button:hover {
+  background-color: #3a3a3a; /* A lighter gray for the hover effect */
+  cursor: pointer; /* Changes the mouse cursor to a pointer */
 }
 
 #contact-container .soical-media ul {
