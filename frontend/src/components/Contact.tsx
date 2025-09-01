@@ -13,8 +13,10 @@ const Contact: React.FC = () => {
           we’ll find the best solutions to bring your idea to life.
         </p>
       </div>
-      <div className="conatct-btn">
-        <button>Contact us</button>
+      <div className="contact-btn">
+        <a href="mailto:yourname@email.com">
+          <button>Contact me</button>
+        </a>
       </div>
       <div className="soical-media">
         <ul>
