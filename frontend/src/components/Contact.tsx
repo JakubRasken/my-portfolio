@@ -14,7 +14,7 @@ const Contact: React.FC = () => {
         </p>
       </div>
       <div className="conatct-btn">
-        <a href="mailto:jakub.rasken@gmail.com?subject=Portfolio%20Inquiry&body=Hi%20Jakub,">
+        <a href="mailto:jakub.rasken@gmail.com?subject=Logo%20Inquiry&body=Hi%20Jakub,">
           <button>Contact me</button>
         </a>
       </div>
