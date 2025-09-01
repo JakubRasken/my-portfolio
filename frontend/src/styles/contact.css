@@ -58,7 +58,7 @@
   line-height: 28px;
 }
 
-#contact-container .conatct-btn button {
+#contact-container .contact-btn button {
   background-color: #1e1e1e;
   width: 244px;
   height: 57px;
@@ -70,7 +70,7 @@
   transition: background-color 0.3s ease;
 }
 
-#contact-container .conatct-btn button:hover {
+#contact-container .contact-btn button:hover {
   background-color: #3a3a3a; /* A lighter gray for the hover effect */
   cursor: pointer; /* Changes the mouse cursor to a pointer */
 }
