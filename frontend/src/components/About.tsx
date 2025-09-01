@@ -39,7 +39,7 @@ const About: React.FC = () => {
           specialize in creating visually striking and custom designs that bring
           your ideas to life. Whether it’s branding, digital illustrations, or
           print materials, I aim to craft designs that perfectly align with your brand's
-          vision and goals.
+          identity, vision and goals.
         </h1>
       </div>
     </div>
