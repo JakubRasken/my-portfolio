@@ -40,7 +40,7 @@ const Services: React.FC = () => {
           Every brand has its own story — and I believe design should express it 
           in a way that feels authentic, creative, and a little unexpected. 
           Together, we’ll explore your goals, uncover what makes you unique, 
-          and bring that vision to life through design that’s both elegant and memorable.
+          and bring that vision to life through design that’s and memorable.
         </p>
       </div>
 
