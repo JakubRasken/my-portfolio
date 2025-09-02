@@ -67,7 +67,7 @@ const Services: React.FC = () => {
               <div>
                 <h2>Custom Design Solutions</h2>
                 <p>
-                  Distinct, one-of-a-kind designs tailored to your identity — made to stand out and endure.
+                  Distinct designs crafted to reflect your true identity, built to stand out, endure and remain memorable over time.
                 </p>
               </div>
             </div>
