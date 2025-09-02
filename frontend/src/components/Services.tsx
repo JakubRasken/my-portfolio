@@ -67,8 +67,7 @@ const Services: React.FC = () => {
               <div>
                 <h2>Custom Design Solutions</h2>
                 <p>
-                  Tailored designs that reflect your unique brand identity,
-                  ensuring a standout and professional look.
+                  Distinct, one-of-a-kind designs tailored to your identity — made to stand out and endure.
                 </p>
               </div>
             </div>
@@ -94,8 +93,7 @@ const Services: React.FC = () => {
               <div>
                 <h2>Creative Branding</h2>
                 <p>
-                  We develop distinctive branding elements, to give your
-                  business a cohesive and memorable identity.
+                  Branding that isn’t afraid to be bold, weaving together clarity, creativity, and character into a cohesive identity.
                 </p>
               </div>
             </div>
@@ -121,8 +119,7 @@ const Services: React.FC = () => {
               <div>
                 <h2>Collaborative Process</h2>
                 <p>
-                  We work closely with you to capture your vision, ensuring the
-                  final design aligns with your goals.
+                  Your ideas matter. I work with you closely to refine them, ensuring the final design feels unmistakably yours.
                 </p>
               </div>
             </div>
