@@ -37,10 +37,10 @@ const Services: React.FC = () => {
           What can I <span className="it">help you</span> with?
         </h1>
         <p>
-          Every project is unique and deserves a personalized approach. Let's
-          take the time to talk through your goals and needs. Together, we can
-          define your vision and choose the most effective solutions to bring it
-          to life.
+          Every brand has its own story — and I believe design should express it 
+          in a way that feels authentic, creative, and a little unexpected. 
+          Together, we’ll explore your goals, uncover what makes you unique, 
+          and bring that vision to life through design that’s both elegant and memorable.
         </p>
       </div>
 
